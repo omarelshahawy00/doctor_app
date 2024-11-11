@@ -1,4 +1,4 @@
 class Routes {
-  static const OnboardingView = '/onboardingView';
+  static const onboardingView = '/onboardingView';
   static const loginView = '/loginView';
 }
