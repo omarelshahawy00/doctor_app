@@ -15,7 +15,7 @@ class DoctorApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: Size(375.w, 812.h),
+      designSize: const Size(375, 812),
       child: MaterialApp.router(
         routerConfig: appRouter.router,
         debugShowCheckedModeBanner: false,
