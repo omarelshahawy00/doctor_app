@@ -29,7 +29,7 @@ class OnboardingView extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 10.h,
+                height: 40.h,
               ),
               const GetStartedButton(),
             ],
