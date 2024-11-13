@@ -20,7 +20,8 @@ class DoctorApp extends StatelessWidget {
         routerConfig: appRouter.router,
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primaryColor: ColorsManager.primaryBlue,
+          useMaterial3: false,
+          primaryColor: ColorsManager.mainBlue,
           scaffoldBackgroundColor: Colors.white,
         ),
       ),

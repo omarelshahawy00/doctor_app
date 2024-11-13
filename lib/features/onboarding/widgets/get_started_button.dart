@@ -16,14 +16,14 @@ class GetStartedButton extends StatelessWidget {
       },
       style: TextButton.styleFrom(
         fixedSize: Size(311.w, 52.h),
-        backgroundColor: ColorsManager.primaryBlue,
+        backgroundColor: ColorsManager.mainBlue,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16), // Rounds the button corners
         ),
       ),
       child: Text(
         'Get Started',
-        style: TextStyles.font16White600Weight,
+        style: TextStyles.font16WhiteSemiBold,
       ),
     );
   }
